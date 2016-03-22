@@ -1,0 +1,23 @@
+<head>
+  <title> OpenTok Getting Started </title>
+
+    <script src="https://static.opentok.com/v2/js/opentok.js"></script>
+<!--    <link href="opentok.css" rel="stylesheet" />-->
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+    {{> vid }}
+
+</body>
+
+<template name="example">
+    <button id="button">{{ buttonName }}</button>
+</template>
+<template name="vid">
+    <div id="videos">
+        <div id="subscriber"></div>
+        <div id="publisher"></div>
+    </div>
+</template>
